@@ -1,0 +1,31 @@
+@font-face {
+    font-family: he-he;
+    src: url(../fonts/FiraSans-Medium.ttf);
+}
+
+
+*{
+    font-family: he-he;
+    font-size: 15px;
+}
+
+header{
+    display: flex;
+    margin: 3px 3px 3px 3px;
+}
+
+img{
+    width: 75px;
+    height: 75px;
+    margin: 0 15px 0 0;
+}
+
+@media screen and (max-widy: 480px){
+    img{
+        width: 100px;
+    }
+}
+h1{
+    text-align: center;
+    margin: 26px 368px 0 30px;
+}
